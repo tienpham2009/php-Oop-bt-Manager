@@ -1,0 +1,20 @@
+{
+  "name": "vendor_name/Manager",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "tien2009",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "src\\": "src"
+    }
+  },
+  "require": {
+    "ext-json": "*"
+  }
+}
